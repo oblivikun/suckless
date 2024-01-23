@@ -1,0 +1,17 @@
+# Based on OpenBSD 7.4
+
+# Browser
+qutebrowser
+
+# Mail
+aerc
+
+# Fonts
+jetbrains-mono
+
+# Utilities
+feh
+picom
+dunst
+scrot
+slop
