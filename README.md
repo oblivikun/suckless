@@ -40,7 +40,7 @@ Now logout and log back in as your main user.
 
 Clone the main installer project:
 
-`git clone https://git.sr.ht/~bt/open-suck`
+`git clone https://git.btxx.org/open-suck`
 
 `cd open-suck`
 
@@ -54,18 +54,6 @@ Clone the main installer project:
 ```sh
 cd open-suck # CD into this repository
 doas sh ./install-dependencies.sh # Install OpenBSD packages
-```
-
-Be sure to edit the main `install.sh` file and change the username "bt" to your own:
-
-```sh
-mkdir /home/bt/.suckless
-cd /home/bt/.suckless
-```
-
-Save your changes and then run:
-
-```sh
 doas sh ./install.sh # Install suckless tools
 cp .xinitrc ~/.xinitrc # Apply .xinitrc
 ```
