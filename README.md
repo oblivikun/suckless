@@ -84,7 +84,13 @@ rcctl start apmd
 
 
 ```
-ifconfig iwn0 nwid ID wpakey PASSPHRASE
+ifconfig iwn0 up
+ifconfig iwn0 scan
+echo "join WIFI-NAME wpakey PASSPHRASE" >> /etc/hostname.iwn0
+echo "dhcp" >> /etc/hostname.iwn0
+echo "inet6 autoconf" >> /etc/hostname.iwn0
+echo "up powersave" >> /etc/hostname.iwn0
+dhclient iwn0
 ```
 
 Take note of the `iwn0`, as this might differ on your machine.
