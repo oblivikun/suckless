@@ -1,15 +1,16 @@
-# Based on OpenBSD 7.4
+# Based on OpenBSD 7.5
 
 # Browser
 qutebrowser
 
 # Mail
-aerc
+aerc-0.17.0
 
 # Fonts
 jetbrains-mono
 
 # Utilities
+ranger
 feh
 picom
 dunst

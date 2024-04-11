@@ -35,7 +35,4 @@ rm -rf config.h
 make clean install
 cd ..
 
-rcctl enable apmd
-rcctl start apmd
-
 echo "Install finished. You should reboot the machine now."

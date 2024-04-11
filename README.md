@@ -1,10 +1,12 @@
 # Open Suck
 
+**Latest changes based off OpenBSD 7.5**
+
 Lightweight Desktop installer for OpenBSD based on the suckless philosophy.
 Includes my own custom set of suckless tools (dwm, slstatus, dmenu, etc.)
 
 ![Screenshot of dwm running on
-OpenBSD](/screenshots/open-suck.png)
+OpenBSD](/screenshots/open-suck-75.png)
 
 Successfully installed on:
 
@@ -18,10 +20,12 @@ Successfully installed on:
 The Open Suck installer gives you the absolute barebones desktop experience:
 
 - `dwm` for window management
+- `ranger` for your file browser
 - `qutebrowser` as your core web browser
 - `aerc` for your terminal-based mail client
 - `slock` for screen locking
 - `scrot`/`slop` for simple screenshot utilities
+- `feh` for your image/file viewing
 - `dunst` for notifications
 
 ## Downloading
