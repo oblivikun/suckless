@@ -118,7 +118,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY|ControlMask|ShiftMask, XK_q,      quit,           {1} },
-	{ 0,                            XK_Print,                    spawn,          SHCMD("flameshot gui") },
+	{ 0,                            XK_Print,                    spawn,          SHCMD("scrot -a $(slop -f '%x,%y,%w,%h')") },
 	{ 0,                            XF86XK_AudioLowerVolume,     spawn,          {.v = downvol}},
 	{ 0,                            XF86XK_AudioRaiseVolume,     spawn,          {.v = upvol}},
 	{ 0,                            XF86XK_AudioMute,            spawn,          {.v = mutevol}},
